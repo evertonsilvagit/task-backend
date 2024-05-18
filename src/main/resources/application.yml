@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /vouchers/api/v1
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:Ere_250893@mongo.evertonsilva.io:27017/vouchers?authSource=admin
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
