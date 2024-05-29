@@ -3,10 +3,10 @@ package br.com.getnet.vouchers.exception;
 import lombok.Getter;
 
 @Getter
-public class VoucherInvalidoException extends Exception {
+public class InvalidTaskException extends Exception {
 
     private String message;
-    public VoucherInvalidoException(String message) {
+    public InvalidTaskException(String message) {
         this.message = message;
     }
 }

@@ -11,8 +11,8 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Builder
 @Data
-public class VoucherResponseDTO {
+public class TaskResponseDTO {
 
-    private Double descontoPercentualFixo;
-    private LocalDate dataDeUso;
+    private String description;
+
 }

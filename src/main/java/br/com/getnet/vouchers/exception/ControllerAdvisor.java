@@ -11,8 +11,8 @@ import java.util.Map;
 @ControllerAdvice
 public class ControllerAdvisor {
 
-    @ExceptionHandler(VoucherInvalidoException.class)
-    public ResponseEntity<?> handleValidationExceptions(VoucherInvalidoException ex) {
+    @ExceptionHandler(InvalidTaskException.class)
+    public ResponseEntity<?> handleValidationExceptions(InvalidTaskException ex) {
         Map<String, Object> body = new HashMap<>();
         body.put("mensagem", ex.getMessage());
 
