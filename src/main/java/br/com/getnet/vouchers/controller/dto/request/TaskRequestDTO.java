@@ -1,17 +1,15 @@
-package br.com.getnet.vouchers.controller.dto.response;
+package br.com.getnet.vouchers.controller.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Data
-public class TaskResponseDTO {
+public class TaskRequestDTO {
 
     private String id;
     private String description;

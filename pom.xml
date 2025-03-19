@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>br.com.mrv</groupId>
-    <artifactId>todo-list-mrv</artifactId>
+    <artifactId>task-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>vouchers</name>
     <description>Todo List MRV</description>
