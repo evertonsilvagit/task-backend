@@ -1,4 +1,1 @@
- CROSS_ORIGIN_PATTERNS=http://192.168.86.*:3000
- DATABASE_PASSWORD=password
- DATABASE_URL=jdbc:mysql://192.168.86.219:3306/db?useSSL\=false&allowPublicKeyRetrieval\=true
- DATABASE_USER=user
+docker run -p 8080:8080 -e CROSS_ORIGIN_PATTERNS="http://192.168.86.*:3000" -e DATABASE_PASSWORD=Ere_250893 -e DATABASE_URL="jdbc:mysql://192.168.86.236:3306/db?useSSL=false&allowPublicKeyRetrieval=true" -e DATABASE_USER=root task-backend
